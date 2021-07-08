@@ -1,0 +1,18 @@
+
+version: 2
+
+updates:
+  - package-ecosystem: bundler
+    directory: /project_a
+    vendor: true
+    schedule:
+      interval: daily
+    labels:
+      - dependencies
+  - package-ecosystem: bundler
+    directory: /project_b
+    vendor: true
+    schedule:
+      interval: daily
+    labels:
+      - dependencies
