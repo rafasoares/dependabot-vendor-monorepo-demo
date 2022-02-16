@@ -7,5 +7,5 @@ gem "rake", "~> 12.0"
 gem "rspec", "~> 3.0"
 
 # Using Sorbet because it's updated almost daily
-gem "sorbet", "0.5.6483", group: :development
+gem "sorbet", "0.5.9656", group: :development
 gem "sorbet-runtime", "0.5.6483"
