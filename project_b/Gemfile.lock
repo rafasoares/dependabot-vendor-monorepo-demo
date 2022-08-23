@@ -46,6 +46,7 @@ DEPENDENCIES
   rspec (~> 3.0)
   sorbet (= 0.5.10346)
   sorbet-runtime (= 0.5.10346)
+  sorbet-static (= 0.5.10346)
 
 BUNDLED WITH
    2.3.12
