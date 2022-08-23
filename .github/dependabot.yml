@@ -9,6 +9,9 @@ updates:
       interval: daily
     labels:
       - dependencies
+    allow:
+      - dependency-name: sorbet*
+        dependency-type: direct
   - package-ecosystem: bundler
     directory: /project_b
     vendor: true
@@ -16,3 +19,6 @@ updates:
       interval: daily
     labels:
       - dependencies
+    allow:
+      - dependency-name: sorbet*
+        dependency-type: direct
