@@ -11,7 +11,7 @@ updates:
       - dependencies
     allow:
       - dependency-name: sorbet*
-        dependency-type: direct
+        dependency-type: indirect
   - package-ecosystem: bundler
     directory: /project_b
     vendor: true
@@ -21,4 +21,4 @@ updates:
       - dependencies
     allow:
       - dependency-name: sorbet*
-        dependency-type: direct
+        dependency-type: indirect
